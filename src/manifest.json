@@ -1,0 +1,19 @@
+{
+  "name": "frontendmasters-dl",
+  "description": "Chrome extension to grab video from frontendmasters.com",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "browser_action": {
+    "default_title": "frontendmasters-dl",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
